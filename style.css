@@ -241,7 +241,7 @@ h1 {
 .one-category {
     width: 220px;
     background-color: #fff;
-    box-shadow: 4px 6px 13px 0px #D7D7D740;
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
     border-radius: 8px;
     padding: 80px 30px;
     cursor: pointer;
@@ -295,7 +295,7 @@ h1 {
 }
 
 .one-article:hover {
-    box-shadow: 4px 6px 13px 0px #D7D7D740;
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
 }
 
 .one-article-photo-title {
@@ -800,7 +800,6 @@ footer {
     .subscription button {
         width: 27%;
         font-size: 1em;
-
     }
     .categories-container {
         padding: 30px 5%;
@@ -845,7 +844,7 @@ footer {
     .one-article {
         width: 100%;
         margin-top: 20px;
-        box-shadow: 4px 6px 13px 0px #D7D7D740;
+        box-shadow: 4px 6px 13px 0 #D7D7D740;
         padding: 30px;
     }
     .one-article h3 {
