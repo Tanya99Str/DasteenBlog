@@ -46,7 +46,6 @@ header a {
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 20px;
     gap: 10px;
     position: relative;
 }
@@ -73,6 +72,7 @@ header a:hover path {
 
 header a:hover::after {
     transform: scaleX(1);
+    transition: .3s linear;
 }
 
 header button {
@@ -91,6 +91,7 @@ header button {
 header button:hover {
     background-color: rgba(0, 0, 0, 0);
     color: var(--purple);
+    transition: .3s linear;
 }
 
 header button:hover path:first-child {
@@ -178,6 +179,7 @@ h1 {
 .subscription button:hover {
     background-color: rgba(0, 0, 0, 0);
     color: var(--purple);
+    transition: .5s linear;
 }
 
 .categories-container {
@@ -219,6 +221,7 @@ h1 {
 .categories-container-head button:hover,
 .articles-container-head button:hover {
     color: #78797e;
+    transition: .3s linear;
 }
 
 .categories-container-head button:hover path,
@@ -257,6 +260,7 @@ h1 {
 
 .one-category:hover {
     background-color: var(--purple);
+    transition: .5s linear;
 }
 
 .one-category:hover p {
@@ -296,6 +300,7 @@ h1 {
 
 .one-article:hover {
     box-shadow: 4px 6px 13px 0 #D7D7D740;
+    transition: .3s linear;
 }
 
 .one-article-photo-title {
@@ -390,6 +395,7 @@ h1 {
 .btn-more button:hover {
     background-color: rgba(0, 0, 0, 0);
     color: var(--purple);
+    transition: .5s linear;
 }
 
 .subscription {
